@@ -1,0 +1,188 @@
+* {
+	padding:0;
+	margin:0;
+	border:none;
+	box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+html,body{
+	height: 100%;
+  max-width: 1920px;
+}
+
+header {
+	background:white;
+	box-shadow : 0px 2px 6px 0px rgb(104, 106, 107);
+	z-index: 2;
+}
+
+header  h1 {
+	text-align: center ;
+	font-family: Roboto;
+	color:rgb(104, 106, 107);
+	padding: 20px 10px 20px ;
+}
+
+.page-section{
+  position: relative;
+  display:flex;
+  justify-content: flex-start;
+  align-content: flex-end;
+  flex-flow: row wrap;
+  z-index: 0;
+}
+
+.nkar{
+  max-width: 80%; 
+  position: absolute;
+  top:8.5%;
+  left:215px;
+  z-index: 1;
+}
+
+.Name{
+  font-size: 40px;
+  padding-left:62%;
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  animation-name: opac;
+  animation-duration: 6s;
+  animation-iteration-count: 1;
+}
+
+.page-section hr {
+  background-color: rgb(44, 44, 44);
+  position: absolute;
+  left: 63.3%;
+  top: 50%;
+  width: 20%;
+  height: 0.5%;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes example{
+from{width: 0px;}
+to{width:286px;}
+}  
+
+.wd{
+  font-size: 20px;
+  padding-left:68%;
+  margin: 0;
+  position: absolute;
+  top: 53%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  animation-name: opac;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+}
+
+@keyframes opac{
+  from{opacity: 0;}
+  to{opacity:1;}
+}
+
+
+.about {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-content: stretch;
+}
+
+.about2{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.about2 table{
+  max-height: 150px;
+  max-width: 500px;
+}
+
+
+h3{
+font-size: 30px;
+margin:10px;
+display: block
+}
+
+.about p{
+  color:rgb(104, 106, 107);
+  font-size: 20px;
+ 
+}
+.AP{
+  font-size: 20px;
+ margin-left: 10px;
+  max-width: 600px;
+  max-height: 800px;
+}
+
+.about hr {
+  background-color: rgb(44, 44, 44);
+  position: absolute;
+  left: 0.7%;
+  top: 109%;
+  width: 206px;
+  height: 3px;
+}
+
+
+.table{
+margin-right: 15%;
+}
+
+table p{
+  padding:20px;
+  align-self: center;
+}
+
+
+#skills{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+
+#skills hr{
+  background-color: rgb(44, 44, 44);
+  position: absolute;
+  left: 0.7%;
+  top: 152%;
+  width: 206px;
+  height: 3px;
+}
+
+#skills table{
+  display: flex;
+  justify-content: center;
+}
+
+#skills img{
+  margin:50px;
+  padding: 50px;
+  max-width: 200px;
+  transition: transform .2s;
+}
+
+
+#skills img:hover {
+  transform: scale(1.5);
+}
+
+#footer {
+  background: #e6e5e5;
+  text-align: center;       
+}
+
+
+ 
